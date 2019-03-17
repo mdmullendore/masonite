@@ -71,6 +71,8 @@ $discussion = masonite_get_discussion_data();
   endif;
   ?>
 
+	<h2 class="reply-title">Add a Comment</h2>
+
 	<?php
     masonite_comment_form( true );
 	?>

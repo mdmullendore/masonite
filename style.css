@@ -157,6 +157,10 @@ article:last-child {
   max-width: 1116px;
 }
 
+.footer-main a {
+  color: #FFFFFF;
+}
+
 .content-area {
   min-height: 600px;
 }
@@ -211,6 +215,112 @@ article:last-child {
   margin: 20px 0;
 }
 
+/* contact page */
 .Contact article {
   text-align: center;
+}
+
+/* post navigation */
+.post-navigation .nav-links .nav-previous,
+.post-navigation .nav-links .nav-next {
+  display: inline-block;
+}
+
+.post-navigation .nav-links .nav-next {
+  float: right;
+}
+
+/* author bio */
+.author-bio {
+  border-top: 1px solid #CCCCCC;
+  padding: 80px 0;
+}
+.author-bio h2 {
+  font-weight: 500;
+}
+
+/* comments */
+.comments-area {
+  padding: 60px 0 100px 0;
+}
+
+.comments-area .comments-title {
+  font-weight: 500;
+}
+
+.comments-area .comment {
+  padding: 20px 0;
+}
+
+.comments-area .comment .comment-meta {
+  display: none;
+}
+.comments-area .comment cite {
+  font-style: normal;
+}
+.comments-area .comment .comment-author img,
+.comments-area .comment .comment-author .says,
+.comments-area .comment .reply {
+  display: none;
+}
+
+.comments-area li {
+  list-style: none;
+}
+
+.comments-area .reply-title {
+  padding: 40px 0 10px 0;
+  font-weight: 500;
+}
+
+.comment-respond label, .comment-respond input, .comment-respond textarea {
+  display: block;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  width: 100%;
+  text-indent: 8px;
+  padding: 8px 0;
+}
+
+.comment-respond label {
+  text-indent: 0;
+}
+
+.comment-respond input, .comment-respond textarea {
+  border: 1px solid #cccccc;
+  transition: 0.5s ease;
+}
+
+.comment-respond input:focus, .comment-respond textarea:focus {
+  outline: none;
+  opacity: 0.5;
+}
+
+.comment-respond textarea {
+  resize: none;
+}
+
+.comment-respond input[type="submit"] {
+  margin-top: 40px;
+  background-color: transparent;
+  border: 1px solid #28aae1;
+  border-radius: 5px;
+  padding: 8px 18px;
+  width: 150px;
+  color: #28aae1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-indent: 0;
+  transition: 0.5s ease;
+}
+
+.comment-respond input[type="submit"]:hover {
+  background-color: #28aae1;
+  color: #FFFFFF;
+}
+
+.comment-respond input[type="submit"]:focus {
+  background-color: #28aae1;
+  color: #FFFFFF;
+  opacity: 0.75;
 }
